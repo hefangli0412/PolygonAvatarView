@@ -4,20 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Polygon.xcscheme</key>
+		<key>Pods-Polygon-SAMCache.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Polygon.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>CDC818EA1ADF0B350035C013</key>
+		<key>4D5A0566E5B45FE3A1A2D3C5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CDC819031ADF0B350035C013</key>
+		<key>BF90A1AF914151EFF7E31E4B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EB0F1C3F91B7943493BDDF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE1E9986D049B347ADF1AAF /* Foundation.framework */; };
+		18A081B39572EC087B0E8163 /* Pods-Polygon-SAMCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89836D3BC36CA4D646D11223 /* Pods-Polygon-SAMCache-dummy.m */; };
+		31D1FB47ED8AA296FC949C62 /* SAMCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B277F2BED11E3B6AC6472B7 /* SAMCache.h */; };
+		71E1831B786917B5BAA643C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE1E9986D049B347ADF1AAF /* Foundation.framework */; };
+		7476026D21B69BA69A81D4BA /* SAMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C99338D41424BC37CCA5EC7F /* SAMCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DB8F80CE261F50500B0892ED /* Pods-Polygon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B943A3341ABF158B285A85F7 /* Pods-Polygon-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B096FDD30B034BBA418BF8D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1708114F115DBE8239B1E357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF90A1AF914151EFF7E31E4B;
+			remoteInfo = "Pods-Polygon-SAMCache";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		154FCFDCEF5AC9817B3808EA /* Pods-Polygon-SAMCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polygon-SAMCache.xcconfig"; sourceTree = "<group>"; };
+		173CBAAB62639B23CC2D2693 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		31AF8F935D2E7D6D41A1BDD6 /* Pods-Polygon-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Polygon-resources.sh"; sourceTree = "<group>"; };
+		3717CA4B15981870858053EE /* Pods-Polygon-SAMCache-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polygon-SAMCache-Private.xcconfig"; sourceTree = "<group>"; };
+		4B277F2BED11E3B6AC6472B7 /* SAMCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMCache.h; path = SAMCache/SAMCache.h; sourceTree = "<group>"; };
+		69595C42D49BC80652817B15 /* Pods-Polygon-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Polygon-acknowledgements.plist"; sourceTree = "<group>"; };
+		8503B15D66D68CFE54CEB080 /* libPods-Polygon-SAMCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Polygon-SAMCache.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B6D5E32267C3CBC9CFB28B /* Pods-Polygon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polygon.debug.xcconfig"; sourceTree = "<group>"; };
+		89836D3BC36CA4D646D11223 /* Pods-Polygon-SAMCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Polygon-SAMCache-dummy.m"; sourceTree = "<group>"; };
+		9284886131B7B79DB8992ABB /* Pods-Polygon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polygon.release.xcconfig"; sourceTree = "<group>"; };
+		B943A3341ABF158B285A85F7 /* Pods-Polygon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Polygon-dummy.m"; sourceTree = "<group>"; };
+		C99338D41424BC37CCA5EC7F /* SAMCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMCache.m; path = SAMCache/SAMCache.m; sourceTree = "<group>"; };
+		D648B0965C106BD1C692AF53 /* Pods-Polygon-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Polygon-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DADED1DA5D935F67E16ED103 /* Pods-Polygon-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Polygon-environment.h"; sourceTree = "<group>"; };
+		DBE1E9986D049B347ADF1AAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E398F0269606545268218290 /* libPods-Polygon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Polygon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF469830A6E25B6315761C12 /* Pods-Polygon-SAMCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Polygon-SAMCache-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6C6DD80A6928921738D389D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E1831B786917B5BAA643C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC5B2E914FC0C2C765EF919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB0F1C3F91B7943493BDDF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018BC3C1DB5281C7118F97E8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77F091D1F061E0706FF95BCA /* Pods-Polygon */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		18B554EC8F7D2E4905AA8CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E398F0269606545268218290 /* libPods-Polygon.a */,
+				8503B15D66D68CFE54CEB080 /* libPods-Polygon-SAMCache.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77F091D1F061E0706FF95BCA /* Pods-Polygon */ = {
+			isa = PBXGroup;
+			children = (
+				D648B0965C106BD1C692AF53 /* Pods-Polygon-acknowledgements.markdown */,
+				69595C42D49BC80652817B15 /* Pods-Polygon-acknowledgements.plist */,
+				B943A3341ABF158B285A85F7 /* Pods-Polygon-dummy.m */,
+				DADED1DA5D935F67E16ED103 /* Pods-Polygon-environment.h */,
+				31AF8F935D2E7D6D41A1BDD6 /* Pods-Polygon-resources.sh */,
+				87B6D5E32267C3CBC9CFB28B /* Pods-Polygon.debug.xcconfig */,
+				9284886131B7B79DB8992ABB /* Pods-Polygon.release.xcconfig */,
+			);
+			name = "Pods-Polygon";
+			path = "Target Support Files/Pods-Polygon";
+			sourceTree = "<group>";
+		};
+		89CBED5DF879C9D2FF018ED8 /* SAMCache */ = {
+			isa = PBXGroup;
+			children = (
+				4B277F2BED11E3B6AC6472B7 /* SAMCache.h */,
+				C99338D41424BC37CCA5EC7F /* SAMCache.m */,
+				F0977D152F4895733E1944CC /* Support Files */,
+			);
+			path = SAMCache;
+			sourceTree = "<group>";
+		};
+		A78D340ED0E12DEF2E27DE85 = {
+			isa = PBXGroup;
+			children = (
+				173CBAAB62639B23CC2D2693 /* Podfile */,
+				CF757135742FB5309E0BD7CF /* Frameworks */,
+				F89E7D9D4D22B57781B0A832 /* Pods */,
+				18B554EC8F7D2E4905AA8CEC /* Products */,
+				018BC3C1DB5281C7118F97E8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF757135742FB5309E0BD7CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7F05385297442DF72E948C9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0977D152F4895733E1944CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				154FCFDCEF5AC9817B3808EA /* Pods-Polygon-SAMCache.xcconfig */,
+				3717CA4B15981870858053EE /* Pods-Polygon-SAMCache-Private.xcconfig */,
+				89836D3BC36CA4D646D11223 /* Pods-Polygon-SAMCache-dummy.m */,
+				FF469830A6E25B6315761C12 /* Pods-Polygon-SAMCache-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Polygon-SAMCache";
+			sourceTree = "<group>";
+		};
+		F7F05385297442DF72E948C9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DBE1E9986D049B347ADF1AAF /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F89E7D9D4D22B57781B0A832 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89CBED5DF879C9D2FF018ED8 /* SAMCache */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		192851D5C22791F257B3125B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D1FB47ED8AA296FC949C62 /* SAMCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D5A0566E5B45FE3A1A2D3C5 /* Pods-Polygon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB9C11F8AAAEB5C4F274E05 /* Build configuration list for PBXNativeTarget "Pods-Polygon" */;
+			buildPhases = (
+				F8A83250EC4F425BD3608EC6 /* Sources */,
+				B6C6DD80A6928921738D389D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7392C42D3717BF52B938F50 /* PBXTargetDependency */,
+			);
+			name = "Pods-Polygon";
+			productName = "Pods-Polygon";
+			productReference = E398F0269606545268218290 /* libPods-Polygon.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BF90A1AF914151EFF7E31E4B /* Pods-Polygon-SAMCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44815982E98BD38B58A40D7C /* Build configuration list for PBXNativeTarget "Pods-Polygon-SAMCache" */;
+			buildPhases = (
+				675AC4C6F507114A8B67A2B1 /* Sources */,
+				BDC5B2E914FC0C2C765EF919 /* Frameworks */,
+				192851D5C22791F257B3125B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Polygon-SAMCache";
+			productName = "Pods-Polygon-SAMCache";
+			productReference = 8503B15D66D68CFE54CEB080 /* libPods-Polygon-SAMCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1708114F115DBE8239B1E357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = A667E078C59F30BA8D159C64 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A78D340ED0E12DEF2E27DE85;
+			productRefGroup = 18B554EC8F7D2E4905AA8CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D5A0566E5B45FE3A1A2D3C5 /* Pods-Polygon */,
+				BF90A1AF914151EFF7E31E4B /* Pods-Polygon-SAMCache */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		675AC4C6F507114A8B67A2B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A081B39572EC087B0E8163 /* Pods-Polygon-SAMCache-dummy.m in Sources */,
+				7476026D21B69BA69A81D4BA /* SAMCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A83250EC4F425BD3608EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8F80CE261F50500B0892ED /* Pods-Polygon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7392C42D3717BF52B938F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Polygon-SAMCache";
+			target = BF90A1AF914151EFF7E31E4B /* Pods-Polygon-SAMCache */;
+			targetProxy = B096FDD30B034BBA418BF8D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04E5DA80966DC1095982B0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3717CA4B15981870858053EE /* Pods-Polygon-SAMCache-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Polygon-SAMCache/Pods-Polygon-SAMCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		077FC6171E4EDE89DFA21B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11FE7FBDF3E4EAE256E2A653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3A261C7070A79F82E8989EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9284886131B7B79DB8992ABB /* Pods-Polygon.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AC5D01E9DDB729E42EFE0EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87B6D5E32267C3CBC9CFB28B /* Pods-Polygon.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E9D8B63B08C6EC43EE6FC213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3717CA4B15981870858053EE /* Pods-Polygon-SAMCache-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Polygon-SAMCache/Pods-Polygon-SAMCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44815982E98BD38B58A40D7C /* Build configuration list for PBXNativeTarget "Pods-Polygon-SAMCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D8B63B08C6EC43EE6FC213 /* Debug */,
+				04E5DA80966DC1095982B0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB9C11F8AAAEB5C4F274E05 /* Build configuration list for PBXNativeTarget "Pods-Polygon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5D01E9DDB729E42EFE0EE8 /* Debug */,
+				3A261C7070A79F82E8989EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A667E078C59F30BA8D159C64 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FE7FBDF3E4EAE256E2A653 /* Debug */,
+				077FC6171E4EDE89DFA21B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1708114F115DBE8239B1E357 /* Project object */;
+}

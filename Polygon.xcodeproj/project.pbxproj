@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD8850501ADF798800BA9416 /* avatar_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = CD88504F1ADF798800BA9416 /* avatar_placeholder.png */; };
+		CD8850521ADF9BB800BA9416 /* example_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8850511ADF9BB800BA9416 /* example_icon.png */; };
 		CDC818F11ADF0B350035C013 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC818F01ADF0B350035C013 /* main.m */; };
 		CDC818F41ADF0B350035C013 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC818F31ADF0B350035C013 /* AppDelegate.m */; };
 		CDC818F71ADF0B350035C013 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC818F61ADF0B350035C013 /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		CDC818FC1ADF0B350035C013 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC818FB1ADF0B350035C013 /* Images.xcassets */; };
 		CDC818FF1ADF0B350035C013 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDC818FD1ADF0B350035C013 /* LaunchScreen.xib */; };
 		CDC8190B1ADF0B350035C013 /* PolygonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC8190A1ADF0B350035C013 /* PolygonTests.m */; };
+		CDC819161ADF0BAF0035C013 /* PolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC819151ADF0BAF0035C013 /* PolygonView.m */; };
+		CF6366487363538F11788C02 /* libPods-Polygon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7C6D5395D399CE94D25500 /* libPods-Polygon.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03B72F8F0A2E7A4BA3315651 /* Pods-Polygon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polygon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Polygon/Pods-Polygon.debug.xcconfig"; sourceTree = "<group>"; };
+		CD88504F1ADF798800BA9416 /* avatar_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar_placeholder.png; sourceTree = "<group>"; };
+		CD8850511ADF9BB800BA9416 /* example_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example_icon.png; sourceTree = "<group>"; };
 		CDC818EB1ADF0B350035C013 /* Polygon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polygon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC818EF1ADF0B350035C013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDC818F01ADF0B350035C013 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,10 @@
 		CDC819041ADF0B350035C013 /* PolygonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolygonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC819091ADF0B350035C013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDC8190A1ADF0B350035C013 /* PolygonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolygonTests.m; sourceTree = "<group>"; };
+		CDC819141ADF0BAF0035C013 /* PolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonView.h; sourceTree = "<group>"; };
+		CDC819151ADF0BAF0035C013 /* PolygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonView.m; sourceTree = "<group>"; };
+		DD7C6D5395D399CE94D25500 /* libPods-Polygon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Polygon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC853C48849CE538CFF2524 /* Pods-Polygon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polygon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Polygon/Pods-Polygon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6366487363538F11788C02 /* libPods-Polygon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +72,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		599D6C36C365867D234F0116 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD7C6D5395D399CE94D25500 /* libPods-Polygon.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D1A19F75F38883C6E6E1B08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03B72F8F0A2E7A4BA3315651 /* Pods-Polygon.debug.xcconfig */,
+				DEC853C48849CE538CFF2524 /* Pods-Polygon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CDC818E21ADF0B350035C013 = {
 			isa = PBXGroup;
 			children = (
 				CDC818ED1ADF0B350035C013 /* Polygon */,
 				CDC819071ADF0B350035C013 /* PolygonTests */,
 				CDC818EC1ADF0B350035C013 /* Products */,
+				9D1A19F75F38883C6E6E1B08 /* Pods */,
+				599D6C36C365867D234F0116 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,8 +112,12 @@
 		CDC818ED1ADF0B350035C013 /* Polygon */ = {
 			isa = PBXGroup;
 			children = (
+				CD88504F1ADF798800BA9416 /* avatar_placeholder.png */,
+				CD8850511ADF9BB800BA9416 /* example_icon.png */,
 				CDC818F21ADF0B350035C013 /* AppDelegate.h */,
 				CDC818F31ADF0B350035C013 /* AppDelegate.m */,
+				CDC819141ADF0BAF0035C013 /* PolygonView.h */,
+				CDC819151ADF0BAF0035C013 /* PolygonView.m */,
 				CDC818F51ADF0B350035C013 /* ViewController.h */,
 				CDC818F61ADF0B350035C013 /* ViewController.m */,
 				CDC818F81ADF0B350035C013 /* Main.storyboard */,
@@ -126,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDC8190E1ADF0B350035C013 /* Build configuration list for PBXNativeTarget "Polygon" */;
 			buildPhases = (
+				04EDF7D9856B3E7E657AF119 /* Check Pods Manifest.lock */,
 				CDC818E71ADF0B350035C013 /* Sources */,
 				CDC818E81ADF0B350035C013 /* Frameworks */,
 				CDC818E91ADF0B350035C013 /* Resources */,
+				35A94F4238B5B8143637FCEC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +205,7 @@
 				TargetAttributes = {
 					CDC818EA1ADF0B350035C013 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = K2Z953X8R5;
 					};
 					CDC819031ADF0B350035C013 = {
 						CreatedOnToolsVersion = 6.3;
@@ -200,7 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDC818FA1ADF0B350035C013 /* Main.storyboard in Resources */,
+				CD8850521ADF9BB800BA9416 /* example_icon.png in Resources */,
 				CDC818FF1ADF0B350035C013 /* LaunchScreen.xib in Resources */,
+				CD8850501ADF798800BA9416 /* avatar_placeholder.png in Resources */,
 				CDC818FC1ADF0B350035C013 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +254,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04EDF7D9856B3E7E657AF119 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		35A94F4238B5B8143637FCEC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Polygon/Pods-Polygon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CDC818E71ADF0B350035C013 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -222,6 +295,7 @@
 				CDC818F71ADF0B350035C013 /* ViewController.m in Sources */,
 				CDC818F41ADF0B350035C013 /* AppDelegate.m in Sources */,
 				CDC818F11ADF0B350035C013 /* main.m in Sources */,
+				CDC819161ADF0BAF0035C013 /* PolygonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +419,13 @@
 		};
 		CDC8190F1ADF0B350035C013 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B72F8F0A2E7A4BA3315651 /* Pods-Polygon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Polygon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,9 +433,13 @@
 		};
 		CDC819101ADF0B350035C013 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC853C48849CE538CFF2524 /* Pods-Polygon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Polygon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +498,7 @@
 				CDC819101ADF0B350035C013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDC819111ADF0B350035C013 /* Build configuration list for PBXNativeTarget "PolygonTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +507,7 @@
 				CDC819131ADF0B350035C013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
